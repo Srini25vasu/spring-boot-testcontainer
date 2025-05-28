@@ -42,6 +42,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!--
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
@@ -50,6 +51,15 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-database-postgresql</artifactId>
 		</dependency>
+		-->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-envers -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-envers
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-envers</artifactId>
+			<version>6.2.13.Final</version>
+		</dependency>
+		-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -81,12 +91,7 @@
 			<version>1.5.3.Final</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-envers -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-envers</artifactId>
-			<version>6.6.12.Final</version>
-			<type>pom</type>
-		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
